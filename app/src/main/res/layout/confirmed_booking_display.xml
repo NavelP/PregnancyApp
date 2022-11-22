@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/top_image"
+        android:scaleType="fitXY"
+        android:src="@drawable/book_top"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_image"
+        android:scaleType="fitXY"
+        android:src="@drawable/book_bottom"
+        android:layout_below="@id/top_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/booking_id"
+        android:text="ID: 12345678910"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:layout_below="@id/bottom_image"
+        android:id="@+id/booking_details_text"
+        android:layout_marginStart="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#dfe5ec"
+        android:padding="10dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/selected_doctor_confirm"
+        android:layout_below="@id/booking_details_text">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/a_doctors_image"
+            android:src="@drawable/meals"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/a_doctors_name"
+            android:text="Dr. Emmanuel Sankoh"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/a_doctors_image"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_doctors_department"
+            android:text="MBBS | FCPS (Dermatology)"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/a_doctors_name"
+            android:layout_toEndOf="@id/a_doctors_image"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/a_doctors_specialization"
+            android:text="obstetrician"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/a_doctors_department"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/a_doctors_image"
+            android:layout_marginStart="15dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#dfe5ec"
+        android:padding="10dp"
+        android:layout_below="@id/selected_doctor_confirm"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/time_destination">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calender_image"
+            android:src="@drawable/ic_baseline_calendar_today_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selected_time"
+            android:text="11:30 AM"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/calender_image"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selected_date"
+            android:text="31-03-2022"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/selected_time"
+            android:layout_toEndOf="@id/calender_image"
+            android:layout_marginStart="15dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_location_on_24"
+            android:layout_below="@id/selected_date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selected_location"
+            android:layout_below="@id/selected_date"
+            android:text="Ngara Desai-Nairobi, Kenya.."
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/location"
+            android:layout_marginStart="15dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cancel_button"
+        android:layout_below="@id/time_destination"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dismiss"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/dismiss_button"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/time_destination"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"/>
+
+
+
+</RelativeLayout>

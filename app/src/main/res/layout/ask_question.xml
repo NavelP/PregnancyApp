@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfe5ec"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/question"
+        android:backgroundTint="@color/white"
+        android:hint="Type your question..."
+        android:paddingStart="30dp"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask"
+        android:textAllCaps="false"
+        android:backgroundTint="#003d99"
+        android:layout_below="@id/question"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

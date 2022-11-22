@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pregnancy</string>
+    <string name="submit_continue"><![CDATA[Submit & Continue]]></string>
+    <string name="enter_your_email_address_a_reset_code_will_be_sent_to_your_registered_email">Enter your email address. A Reset code will be sent to your registered email</string>
+    <string name="pregnancy_tools">Pregnancy Tools</string>
+</resources>

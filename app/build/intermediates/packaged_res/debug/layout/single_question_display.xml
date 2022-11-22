@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/baby_motherimage"
+            android:scaleType="fitXY"
+            android:id="@+id/doctor_answered_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctor_answered_name"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/doctor_answered_image"
+            android:text="Pregnancy App"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctor_answered_specialization"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/doctor_answered_name"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_toRightOf="@id/doctor_answered_image"
+            android:text="Your question"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#003d99"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/doctor_answered_specialization"
+            android:layout_toRightOf="@id/doctor_answered_image"
+            android:id="@+id/line2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/asked_question_text"
+            android:background="#dfe5ec"
+            android:textStyle="italic"
+            android:layout_toRightOf="@id/doctor_answered_image"
+            android:layout_below="@id/line2"
+            android:layout_marginStart="10dp"
+            android:text="Hey whay is the problem with me? Hey what is the problem with me?"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_answers"
+            android:text="view answers"
+            android:backgroundTint="#003d99"
+            android:textAllCaps="false"
+            android:layout_below="@id/asked_question_text"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

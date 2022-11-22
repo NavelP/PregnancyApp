@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">128049342725-ilu596ie41ahruv4c5ec5uj0jl0n6oc1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">128049342725</string>
+    <string name="google_api_key" translatable="false">AIzaSyA9xXkcbSIORTLbez84BS8Pqrta9FzMm0U</string>
+    <string name="google_app_id" translatable="false">1:128049342725:android:831c8e8ad0794f57812f6c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9xXkcbSIORTLbez84BS8Pqrta9FzMm0U</string>
+    <string name="google_storage_bucket" translatable="false">pregnancy-1a488.appspot.com</string>
+    <string name="project_id" translatable="false">pregnancy-1a488</string>
+</resources>

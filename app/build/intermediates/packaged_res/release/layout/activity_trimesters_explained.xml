@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrimestersExplained">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myGuideToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#003380"
+        android:elevation="4dp"
+        android:textAlignment="center"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:id="@+id/trimesterExplainedBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:id="@+id/trimester_heading"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerLayout"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="#003380"
+        android:layout_below="@id/myGuideToolBar"
+        android:layout_margin="10dp">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:id="@+id/trimester_weeks"/>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addFont"
+        android:src="@drawable/ic_baseline_add_circle_outline_24"
+        android:layout_below="@id/myGuideToolBar"
+        android:layout_toEndOf="@id/spinnerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reduceFont"
+        android:src="@drawable/ic_baseline_remove_circle_outline_24"
+        android:layout_below="@id/myGuideToolBar"
+        android:layout_toEndOf="@id/addFont"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="45dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/readText"
+        android:src="@drawable/ic_baseline_campaign_24"
+        android:layout_below="@id/myGuideToolBar"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerLayout">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weeks_info"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:id="@+id/trimester_week_image"
+                    android:src="@drawable/trimester2"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/trimester_week_heading"
+                    android:layout_below="@id/trimester_week_image"
+                    android:background="@drawable/rounded_corner"
+                    android:backgroundTint="#dfe5ec"
+                    android:padding="10dp"
+                    android:text="This Week's Heading"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/trimester_week_text"
+                    android:layout_below="@id/trimester_week_heading"
+                    android:layout_margin="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/previousWeek"
+                    android:layout_below="@id/trimester_week_text"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/previousWeekText"
+                        android:text="Week 10"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currentWeek"
+                    android:text="Current Week"
+                    android:layout_below="@id/trimester_week_text"
+                    android:layout_margin="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/nextWeek"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/trimester_week_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:id="@+id/nextWeekText"
+                        android:text="Week 11"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+</RelativeLayout>

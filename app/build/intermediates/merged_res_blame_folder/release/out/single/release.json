@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_alarm_on_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_alarm_on_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_new_account.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_new_account.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_note_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_note_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_add_circle_outline_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week12.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week12.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_add_notes.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/add_notes.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week9.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week9.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_guide.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_asked_questions.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/asked_questions.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_trimester2.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/trimester2.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_meals.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_meals.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_trimesters_explained.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_trimesters_explained.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_q_icon.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/q_icon.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_pregnant_cartoon.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/pregnant_cartoon.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_filter_alt_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_filter_alt_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week25.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week25.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week6.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week6.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_phone_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_trimester1.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/trimester1.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_child_name.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/child_name.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_rounded_border.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/rounded_border.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_video_call_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_video_call_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week16.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week16.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_ask_question.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/ask_question.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_questions.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/questions.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_group_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_group_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_question_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_question_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_kids_names.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_kids_names.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_baby_motherimage.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/baby_motherimage.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week8.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week8.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_confirmed_booking_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/confirmed_booking_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_trimester_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_trimester_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_questions.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_questions.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_calendar_today_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_upcoming_appointment_online.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_upcoming_appointment_online.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_meals.png.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/meals.png"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_trimester3.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/trimester3.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week29.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week29.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_appointment.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/appointment.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_appointments_manager.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_appointments_manager.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_campaign_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_campaign_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_doctor_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_doctor_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_baby_name_category.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/baby_name_category.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_remove_circle_outline_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_remove_circle_outline_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_rounded_corner.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_childer_names.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/childer_names.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_rounded_border_blue.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/rounded_border_blue.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_note_add_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_note_add_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_tool_display.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_tool_display.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_doc_patient_convo.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/doc_patient_convo.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_delete_outline_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_delete_outline_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_upcoming_appointment_physical.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_upcoming_appointment_physical.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_star_border_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_star_border_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_history_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week7.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week7.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_notes.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/notes.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_monetization_on_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_monetization_on_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_book_top.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/book_top.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_upcoming_appointments_online.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_upcoming_appointments_online.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_book_appointment.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_book_appointment.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_star_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_appointment_view.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_appointment_view.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week5.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week5.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week10.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week10.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_upcoming_appointments_physical.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_upcoming_appointments_physical.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week33.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week33.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_book_bottom.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/book_bottom.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_book_online_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_book_online_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_userguide.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/userguide.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_child_care_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_child_care_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_tools.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_tools.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_single_time_slot.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/single_time_slot.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_google_icon.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/google_icon.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_video_caller.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_video_caller.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week3.jpg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week3.jpg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week40.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week40.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/layout_activity_notes.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/layout/activity_notes.xml"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.pregnancy.app-main-41:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_week21.jpeg.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/week21.jpeg"
+    },
+    {
+        "merged": "com.example.pregnancy.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.pregnancy.app-main-41:/drawable/ic_launcher_background.xml"
+    }
+]

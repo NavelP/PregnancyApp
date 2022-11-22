@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/rounded_corner"
+    android:backgroundTint="#dfe5ec">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/doctors_image"
+        android:src="@drawable/meals"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/doctors_name"
+        android:text="Dr. Emmanuel Sankoh"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_department"
+        android:text="MBBS | FCPS (Dermatology)"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/doctors_name"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_specialization"
+        android:text="obstetrician"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/doctors_department"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_hospital"
+        android:text="Kenyatta Hospital"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/doctors_specialization"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_location"
+        android:text="Nairobi city, Kenya"
+        android:textSize="12dp"
+        android:layout_below="@id/doctors_hospital"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_fee"
+        android:src="@drawable/ic_baseline_monetization_on_24"
+        android:layout_below="@id/doctors_location"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/doctors_image"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultation charges may vary"
+        android:textSize="12dp"
+        android:textColor="#003380"
+        android:layout_below="@id/doctors_location"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/doctors_fee"
+        android:layout_marginStart="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textAllCaps="false"
+        android:id="@+id/book_appointmnet"
+        android:textColor="@color/white"
+        android:backgroundTint="#003380"
+        android:layout_below="@id/doctors_fee"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
